@@ -1,4 +1,4 @@
-import { useState, useDebugValue, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function getSavedValue(key, initialValue) {
   const savedValue = JSON.parse(localStorage.getItem(key));
