@@ -12,10 +12,13 @@ import useRefExample1 from "./HooksExamples/useRefExamples/useRefExample1";
 import useRefExample2 from "./HooksExamples/useRefExamples/useRefExample2";
 import useRefExample3 from "./HooksExamples/useRefExamples/useRefExample3";
 import useContextExample1 from "./HooksExamples/useContextExamples/useContextExample1";
+import useContextExampleDefinationRender from "./HooksExamples/useContextExamples/useContextExampleDefinationRender";
+import displayExample2 from "./HooksExamples/useContextExamples/useContextExample2Display";
 import useCallBackExample1 from "./HooksExamples/useCallBackExamples/useCallBackExample1";
 import useReducerExample1 from "./HooksExamples/useReducerExample/useReducerExample1";
 import useReducerExample2 from "./HooksExamples/useReducerExample/useReducerExample2";
 import CustomHookExample1 from "./HooksExamples/CustomHooks/CustomHookExample1";
+import AppLoginLogout from "./HooksExamples/useContextExamples/useContextExampleLoginLogout/AppLoginLogout";
 
 function App() {
   return (
@@ -39,12 +42,12 @@ function App() {
         <Route path="/useReducerExample1" component={useReducerExample1} />
         <Route path="/useReducerExample2" component={useReducerExample2} />
         <Route path="/CustomHookExample1" component={CustomHookExample1} />
-        {/* <Route path="/courses" component={CoursesPage} />
-        <Route path="/about" component={AboutPage} />
-        <Route path="/course/:slug" component={ManageCoursePage} />
-        <Route path="/course" component={ManageCoursePage} />
-        <Redirect from="/about-page" to="about" />
-        <Route component={NotFoundPage} /> */}
+        <Route
+          path="/useContextExampleDefinationRender"
+          component={useContextExampleDefinationRender}
+        />
+        <Route path="/useContextExample2" component={displayExample2} />
+        <Route path="/AppLoginLogout" component={AppLoginLogout} />
       </Switch>
     </div>
   );

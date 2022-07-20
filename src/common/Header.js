@@ -33,7 +33,19 @@ function Header() {
       <br />
       <b>{"Use Context"}</b>
       <br />
+      <NavLink to="/useContextExampleDefinationRender">
+        {" "}
+        useContext Example Defination{" "}
+      </NavLink>
+      <br />
+      <NavLink to="/AppLoginLogout">AppLoginLogout</NavLink>
+      <br />
+      <br />
       <NavLink to="/useContextExample1">useContextExample1</NavLink>
+      <br />
+      <NavLink to="/useContextExample2">useContextExample2</NavLink>
+      <br />
+      <b>{"Use Callback"}</b>
       <br />
       <NavLink to="/useCallBackExample1">useCallBackExample1</NavLink>
       <br />
