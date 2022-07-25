@@ -13,6 +13,7 @@ function newTodo(name) {
 
 function reducer(todos, action) {
   console.log("Reducer is Called");
+
   switch (action.type) {
     case ACTIONS.ADD_TODO:
       return [...todos, newTodo(action.payload.name)];

@@ -40,7 +40,6 @@ function Header() {
       <br />
       <NavLink to="/AppLoginLogout">AppLoginLogout</NavLink>
       <br />
-      <br />
       <NavLink to="/useContextExample1">useContextExample1</NavLink>
       <br />
       <NavLink to="/useContextExample2">useContextExample2</NavLink>
