@@ -19,7 +19,8 @@ import useReducerExample1 from "./HooksExamples/useReducerExample/useReducerExam
 import useReducerExample2 from "./HooksExamples/useReducerExample/useReducerExample2";
 import CustomHookExample1 from "./HooksExamples/CustomHooks/CustomHookExample1";
 import AppLoginLogout from "./HooksExamples/useContextExamples/useContextExampleLoginLogout/AppLoginLogout";
-
+import useEffectExample4 from "./HooksExamples/useEffectExamples/useEffectExample4";
+import useRefExample4Callback_ref from "./HooksExamples/useRefExamples/useRefExample4Callback_ref";
 function App() {
   return (
     <div className="container-fluid">
@@ -42,12 +43,17 @@ function App() {
         <Route path="/useReducerExample1" component={useReducerExample1} />
         <Route path="/useReducerExample2" component={useReducerExample2} />
         <Route path="/CustomHookExample1" component={CustomHookExample1} />
+        <Route path="/useEffectExample4" component={useEffectExample4} />
         <Route
           path="/useContextExampleDefinationRender"
           component={useContextExampleDefinationRender}
         />
         <Route path="/useContextExample2" component={displayExample2} />
         <Route path="/AppLoginLogout" component={AppLoginLogout} />
+        <Route
+          path="/useRefExample4Callback_ref"
+          component={useRefExample4Callback_ref}
+        />
       </Switch>
     </div>
   );

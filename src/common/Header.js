@@ -19,6 +19,8 @@ function Header() {
       <br />
       <NavLink to="/useEffectExample3"> useEffectExample3</NavLink>
       <br />
+      <NavLink to="/useEffectExample4">useEffectExample4</NavLink>
+      <br />
       <b>{"Use Memo"}</b>
       <br />
       <NavLink to="/useMemoExample1"> useMemoExample1</NavLink>
@@ -30,6 +32,12 @@ function Header() {
       <NavLink to="/useRefExample2"> useRefExample2</NavLink>
       <br />
       <NavLink to="/useRefExample3"> useRefExample3</NavLink>
+      <br />
+      <NavLink to="/useRefExample4Callback_ref">
+        {" "}
+        useRefExample4Callback ref{" "}
+      </NavLink>
+
       <br />
       <b>{"Use Context"}</b>
       <br />
