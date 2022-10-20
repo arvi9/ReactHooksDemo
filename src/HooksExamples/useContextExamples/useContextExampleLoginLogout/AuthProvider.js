@@ -3,7 +3,7 @@ import Login from "./Login";
 import Logout from "./Logout";
 import authContext from "./AuthContext";
 
-const AppLoginLogout = () => {
+const AuthProvider = () => {
   const [auth, setAuth] = useState(false);
   const login = () => {
     setAuth(true);
@@ -25,6 +25,6 @@ const AppLoginLogout = () => {
   );
 };
 
-export default AppLoginLogout;
+export default AuthProvider;
 
 
